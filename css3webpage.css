@@ -1,0 +1,260 @@
+
+body{
+	margin: 0;
+	background-image: url("4979f5f5cc3beece9658f9ccb6454c5f.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
+#container{
+	display:flex;
+	padding:10px;
+    box-sizing: border-box;
+	justify-content:flex-end;
+
+}
+.green:hover{
+
+	padding: 10px;
+	background-color: #9ab999;
+	border-radius: 12px;
+	text-align: center;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+#container p{
+	width:10% ;
+
+	flex-basis: 8vw;
+
+}
+header section{
+	display:grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows:1fr;
+
+
+}
+.cont{width: 80%;margin: 0 auto;}
+.table {display: table; height: 100%}
+.table-cell {display: table-cell; vertical-align: middle;}
+
+header h1{
+
+font-size: 60px;
+
+}
+
+.btn{
+
+	bottom:100;
+
+	font-size: 16px;
+	padding:10px;
+
+    border: none;
+background-color:#9ab999;
+	color: white;
+	border-radius: 12px;
+	width:160px;
+
+
+}
+header{
+	background-color: rgba(5, 5, 5, 0.57);;
+
+	font-family: sans-serif;
+	border-top: 5px #9ab999 solid;
+	color: white;
+	/*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("pexels-photo-759668.jpeg");
+	background-size: cover;*/
+     height:100vh;
+}
+header img{
+	border:30px  #9ab999 solid;
+	height:450px;
+	width: 450px;
+
+    right:0;
+    bottom:0;
+
+	border-radius: 50%;
+}
+/*hr{
+	width:80%;
+	color: #11191b;
+
+}
+#unique{
+	text-align: center;
+	color: white;
+	border-radius: 12px;
+	width:100px;
+	height: 70px;
+	background-color: #11191b;
+}*/
+#diamond{
+	font-family: sans-serif;
+	/*background-color: #27363b;*/
+	display: grid;
+	/*background-image: url("pexels-photo-395132.jpeg");
+       background-size:cover;*/
+grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr;
+  /*grid-gap: 80px;*/
+
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#diamond img{
+	width: 100px;
+	height: 100px;
+}
+#diamond div{
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: white;
+	padding-top: 30px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
+#diamond div:hover{
+	color: white;
+	background-color: #9ab999;
+}
+#combination{
+	/*background-color: #fcceaa;*/
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 2fr;
+
+  margin-left: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  grid-gap: 10px;
+}
+#combination img{
+	filter:grayscale();
+	border:6px #27363b solid;
+	    width: 350;
+	height: 200px;
+
+}
+#combination img:hover{
+border:6px #9ab999 solid;
+filter:grayscale(0%);
+
+}
+footer{
+	color: rgba(244, 224, 224, 0.75);
+	font-family: sans-serif;
+	background-color: #27363b;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 2fr;
+   margin:0;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  grid-gap: 20px;
+}
+footer div{
+	margin-left: 50px;
+
+}
+.underline:hover{
+	color:#9ab999;
+}
+.big{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.young{
+	color: white;
+	background-color: #11191b;
+	border-radius: 12px;
+	width:150px;
+	height: 40px;
+
+
+}
+.old{
+	color: white;
+	background-color: #11191b;
+	width:150px;
+	height: 100px;
+	border-radius: 12px;
+}
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #9ab999;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+		margin-top: 30px;
+    margin-right: 70px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
